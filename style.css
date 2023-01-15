@@ -1,0 +1,54 @@
+.nav1{
+    background-color: dodgerblue;
+}
+
+.nav2{
+    font-size: 5vw;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,15vw);
+    grid-template-rows: repeat(3,15vw);
+    text-align: center;
+}
+
+.gamecontainer{
+align-items: center;
+display: flex;
+justify-content: center;
+font-size: 7vw;
+text-align: center;
+margin-top: 50px;
+}
+
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div{
+    border: 2.8px solid black;
+}
+
+.un:hover{
+    background-color: rgb(190, 156, 221);
+}
+
+.container div.br{
+    border-right: 0px;
+}
+
+.bl{
+    border-left: 0;
+}
+
+div.bt{
+    border-top: 0;
+}
+
+.bb{
+    border-bottom: 0;
+}
