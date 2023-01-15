@@ -1,0 +1,54 @@
+.nav1{
+    background-color: dodgerblue;
+}
+
+.nav2{
+    font-size: 6vw;
+    text-align: center;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,15vw);
+    grid-template-rows: repeat(3,15vw);
+    text-align: center;
+}
+
+.ground{
+align-items: center;
+display: flex;
+justify-content: center;
+font-size: 7vw;
+text-align: center;
+margin-top: 50px;
+}
+
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes div{
+    border: 2.8px solid black;
+}
+
+.boxes div:hover{
+    background-color: rgb(190, 156, 221);
+}
+
+.boxes div.br{
+    border-right: 0px;
+}
+
+.boxes div.bl{
+    border-left: 0;
+}
+
+.boxes div.bt{
+    border-top: 0;
+}
+
+.boxes div.bb{
+    border-bottom: 0;
+}
